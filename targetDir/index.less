@@ -1,0 +1,36 @@
+@ver:"?1521098997";
+
+// div设置背景图片，自适应图片尺寸
+.divimg(@url) {
+    // @size: image-size(@url);
+    @wid: image-width(@url);
+    @hei: image-height(@url);
+    background-image: url("@{url}@{ver}");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    width: 1rem * @wid / 100;
+    height: 1rem * @hei / 100;
+}
+
+html, body {
+    -ms-touch-action: none;
+    background: #8204b5!important;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 100%;
+
+    // background-image: url(../resource/assets/bg_1.jpg);
+    background-repeat:  no-repeat;
+    background-size: 100% 100%; 
+
+    font-family: "Microsoft YaHei" ! important;
+    font-style: normal;
+}
+
+// 隐藏
+.cont-hide {
+    display: none;
+    .divimg('btn_dk.png');
+}
