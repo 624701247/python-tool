@@ -3,9 +3,6 @@ from PIL import Image
 import codecs
 
 
-
-
-
 # 批量修改文件名，大写统一转小写
 # 并获取图片文件宽高
 def fileNameLower(path):
@@ -24,7 +21,7 @@ def fileNameLower(path):
 
 
 
-fileNameLower("E:\work\python-tool\editFileName-test")
+fileNameLower("E:\\work\\python-tool\\editFileName-test")
 
 
 
