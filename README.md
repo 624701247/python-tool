@@ -1,6 +1,6 @@
 # python批处理
 ### 肖进超 
-
+* 使用前，先安装python，再安装pip，然后用pip安装需要用到的模块
 * 当前使用：python 3.6.4
 * 需要查什么知识点请搜索 kone point
 
