@@ -18,3 +18,4 @@
 
 * read-excel ： excel 转json(省市区数据表转成 sarea插件需要的格式)
  
+* common.py ： 常用的一些方法请在这里面找
