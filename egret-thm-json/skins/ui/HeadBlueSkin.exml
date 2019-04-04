@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadBlueSkin" width="350" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg0" source="head_green_png" x="30" y="127.5" scaleY="-1"/>
+	<e:Image id="bg1" source="head_red_png" x="321" y="127" scaleX="-1" scaleY="-1"/>
+	<e:Image id="bg2" source="head_yellow_png" x="320" y="16" scaleX="-1"/>
+	<e:Image id="bg00" x="30" y="127" scaleY="-1" source="head_green1_png"/>
+	<e:Image id="bg11" x="321" y="127" scaleX="-1" scaleY="-1" source="head_red1_png"/>
+	<e:Image id="bg22" x="320" y="16" scaleX="-1" source="head_yellow1_png"/>
+	<e:Image id="bg33" x="30" y="16" source="head_blue1_png"/>
+	<e:Image id="bg3" x="30" y="16" source="head_blue_png"/>
+	<e:Image id="headMask" source="head_mask_png" x="42" y="24"/>
+	<e:Image id="headImg" width="95" height="95" x="42" y="24" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="timeImg" x="89" y="70" anchorOffsetX="72" anchorOffsetY="72" source="head_time3_png"/>
+	<e:Label id="nameLabel" text="啊啊啊啊" x="155" y="71" anchorOffsetX="0" width="147" anchorOffsetY="0" height="39" verticalAlign="middle" textAlign="center" textColor="0x070000" bold="true"/>
+	<e:Label id="timeLabel" text="20" x="43" y="25" anchorOffsetX="0" width="92" anchorOffsetY="0" height="92" verticalAlign="middle" textAlign="center" bold="true" textColor="0xf9f7f7" size="50"/>
+</e:Skin>

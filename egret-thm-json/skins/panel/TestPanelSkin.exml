@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TestPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="diceGroup" width="1136" height="640" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image source="dice_num0_png" x="326.68" y="568.01" width="80" height="80" scaleX="1" scaleY="1"/>
+		<e:Image source="dice_num1_png" x="405.88" y="568.01" width="80" height="80" scaleX="1" scaleY="1"/>
+		<e:Image source="dice_num2_png" x="485.0799999999999" y="569.01" width="80" height="80" scaleX="1" scaleY="1"/>
+		<e:Image source="dice_num3_png" x="564.2800000000001" y="567.01" width="80" height="80" scaleX="1" scaleY="1"/>
+		<e:Image source="dice_num4_png" x="643.4800000000001" y="567.01" width="80" height="80" scaleX="1" scaleY="1"/>
+		<e:Image source="dice_num5_png" x="722.68" y="569.01" width="80" height="80" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectChessPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="uiGroup" height="640" width="1136" horizontalCenter="0" verticalCenter="0">
+		<ns1:Chess x="404.32" y="226" source="game_chess_blue0_png"/>
+		<ns1:Chess x="499.64" y="226" source="game_chess_blue0_png"/>
+		<ns1:Chess y="226" source="game_chess_blue0_png" x="595.32"/>
+		<ns1:Chess x="690.25" y="226" source="game_chess_blue0_png"/>
+		<e:RadioButton id="radioBtn" label="" x="408.32" y="324" groupName="a" value="0" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_radio1_png" source.down="game_radio_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="504.9566666666667" y="324" groupName="a" value="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_radio1_png" source.down="game_radio_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="600.9833333333333" y="324" groupName="a" value="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_radio1_png" source.down="game_radio_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="698.33" y="324" groupName="a" value="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_radio1_png" source.down="game_radio_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Label text="选择行走棋子" y="179" x="478"/>
+		<e:Image id="okBtn" source="game_select_ok_png" y="417.33" x="264.71"/>
+		<e:Image id="cancelBtn" source="game_select_cancel_png" x="611.05" y="417.33"/>
+	</e:Group>
+</e:Skin>

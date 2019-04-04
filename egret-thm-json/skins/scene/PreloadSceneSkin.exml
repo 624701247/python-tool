@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PreloadSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1136" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="home_bg_jpg" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label id="progressLabel" text="游戏加载中..." y="365.6" scaleX="1" scaleY="1" x="480"/>
+		<e:Image id="progressBg" source="preload_progressBg_png" y="269.9" x="318"/>
+		<e:Image id="progressBar" source="preload_progressBar_png" y="274.18" x="323"/>
+		<e:Rect id="progressMask" width="503.34" height="59.39" x="319.36" y="264.91" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="circle" source="preload_circle_png" x="247.16" y="246.22"/>
+		<ns1:Dice id="dice" x="256" y="254" source="dice_anim0_png" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+</e:Skin>

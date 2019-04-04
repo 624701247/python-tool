@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RulePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="1136" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8" x="0" y="0" scaleX="1" scaleY="1"/>
+		<ns1:ScrollView id="scrollView" width="856" height="482" x="140" y="39.01" scaleX="1" scaleY="1">
+			<e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<e:Image source="rule_page0_png" x="400" y="-40"/>
+			<e:Image source="rule_page1_png" x="622" y="258"/>
+			<e:Image source="rule_page2_png" x="312" y="352"/>
+				<e:Image x="322" y="362" source="rule_page3_png"/>
+			</e:Group>
+		</ns1:ScrollView>
+		<e:Image id="backBtn" source="rule_back_png" y="537.34" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

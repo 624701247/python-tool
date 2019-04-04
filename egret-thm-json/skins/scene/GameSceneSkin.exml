@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group left="0" right="0" top="0" bottom="0" horizontalCenter="0">
+		<e:Group id="bgGroup" horizontalCenter="0" x="0" y="0" scaleX="1" scaleY="1" height="640" width="1136">
+			<e:Image id="bg" x="0" y="0" scaleX="1" scaleY="1" source="game_bg_jpg"/>
+		</e:Group>
+		<e:Group id="mapGroup" scaleX="1" scaleY="1" touchEnabled="true" horizontalCenter="0" width="1136" height="640" y="0">
+			<e:Image id="chessBg" scaleX="1" scaleY="1" x="140" y="47" source="game_chessBg0_png"/>
+		</e:Group>
+		<e:Group id="pathNodeGroup" y="0" scaleX="1" scaleY="1" touchEnabled="false" horizontalCenter="0" height="640" width="1136">
+			<ns1:PathNode x="439.67" y="29.91" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="483.32" y="39.58" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="504.97" y="62.8" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="527.29" y="87.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="568.28" y="86.14" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="588.95" y="64.83" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="613.38" y="45.01" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="651.7" y="35.87" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="688.25" y="47.54" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="719.57" y="63.21" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node10" x="750.62" y="78.54" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="776.2" y="96.54" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="809.2" y="113.55" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="835.2" y="130.99" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="819.2" y="161.15" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="793.87" y="179.8" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="751.53" y="196.3" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="756.85" y="227.97" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="804.5" y="244.64" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="836.82" y="267.67" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="866.82" y="296.14" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="846.49" y="325.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="821.49" y="344.1" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node23" x="791.49" y="364.44" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="760.18" y="393.03" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="730.18" y="417.01" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="685.49" y="435" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="631.54" y="419.65" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="594.91" y="392.17" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="576.9" y="363.46" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="518.93" y="357.48" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="496.91" y="389.75" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="464.24" y="410.38" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="410.31" y="433.05" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="368.32" y="412.2" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="331.64" y="391.54" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node36" x="298.99" y="368.21" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="271.66" y="343.55" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="240.36" y="321.57" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="229.07" y="292.22" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="260.39" y="254.27" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="289.06" y="235.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="333.73" y="222.35" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="341.1" y="191.01" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="303.07" y="177.01" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="275.78" y="162.83" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="257.79" y="139.51" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="282.46" y="109.58" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="312.48" y="88.91" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node49" x="338.44" y="68.93" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="376.48" y="53.24" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="403.82" y="37.25" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node52" x="383.82" y="97.25" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="407.81" y="113.76" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="433.48" y="129.44" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="461.15" y="146.74" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="486.8" y="164.46" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="524.72" y="192.16" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node58" x="711.81" y="101.75" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="687.8" y="115.44" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="661.8" y="131.47" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="633.5" y="148.82" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="607.81" y="165.81" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="571.16" y="190.48" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node64" x="736.17" y="332.15" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="704.82" y="311.49" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="672.51" y="289.5" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="641.44" y="270.11" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="610.78" y="249.62" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="572.49" y="218.77" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node70" x="356.48" y="326.84" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="390.48" y="308.1" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="423.15" y="287.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="454.49" y="267.74" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="484.8" y="247.44" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="520.47" y="220.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode id="node76" x="441.47" y="7.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="880.47" y="128.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="689.47" y="467.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:PathNode x="182.47" y="289.79" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="tipGreenGroup" scaleX="1" scaleY="1" touchEnabled="false" horizontalCenter="0" width="1136" height="640" y="0">
+			<e:Image x="413.46" y="89.95" scaleX="1" scaleY="1" source="greenTip13_png" anchorOffsetX="0" width="101.5" anchorOffsetY="0" height="30.5"/>
+			<e:Image x="460.21" y="91.33" scaleX="1" scaleY="1" source="greenTip23_png"/>
+			<e:Image x="487.32" y="106.16" scaleX="1" scaleY="1" source="greenTip24_png"/>
+			<e:Image x="513.86" y="121.62" scaleX="1" scaleY="1" source="greenTip25_png"/>
+			<e:Image x="568.27" y="119.48" scaleX="1" scaleY="1" source="greenTip26_png"/>
+			<e:Image x="570.99" y="106.12" scaleX="1" scaleY="1" source="greenTip27_png"/>
+			<e:Image x="597.86" y="90.77" scaleX="1" scaleY="1" source="greenTip28_png"/>
+			<e:Image x="622.91" y="90.38" scaleX="1" scaleY="1" source="greenTip29_png"/>
+			<e:Image x="678.14" y="92.55" scaleX="1" scaleY="1" source="greenTip30_png"/>
+			<e:Image x="706.26" y="106.93" scaleX="1" scaleY="1" source="greenTip31_png"/>
+			<e:Image source="game_tip_green_png" x="725.31" y="116.99" scaleX="1" scaleY="1"/>
+			<e:Image x="762.28" y="138.26" scaleX="1" scaleY="1" source="greenTip32_png"/>
+			<e:Image x="792.86" y="154.11" scaleX="1" scaleY="1" source="greenTip33_png"/>
+			<e:Image x="822.1" y="170.26" scaleX="1" scaleY="1" source="greenTip34_png"/>
+			<e:Image x="797.6" y="205.01" scaleX="1" scaleY="1" source="greenTip35_png"/>
+			<e:Image x="773.58" y="221.61" scaleX="1" scaleY="1" source="greenTip36_png"/>
+			<e:Image x="718.8" y="240.38" scaleX="1" scaleY="1" source="greenTip37_png"/>
+			<e:Image x="719.06" y="277.6" scaleX="1" scaleY="1" source="greenTip38_png"/>
+			<e:Image x="782.7" y="279.99" scaleX="1" scaleY="1" source="greenTip39_png"/>
+			<e:Image x="813.81" y="300.36" scaleX="1" scaleY="1" source="greenTip40_png"/>
+			<e:Image x="847.02" y="319.05" scaleX="1" scaleY="1" source="greenTip41_png"/>
+			<e:Image x="819.56" y="360.23" scaleX="1" scaleY="1" source="greenTip42_png"/>
+			<e:Image x="791" y="381.35" scaleX="1" scaleY="1" source="greenTip43_png"/>
+			<e:Image source="game_tip_green_png" x="768.85" y="401.44" scaleX="1" scaleY="1"/>
+			<e:Image x="731.26" y="426.02" scaleX="1" scaleY="1" source="greenTip44_png"/>
+			<e:Image x="702.15" y="448.67" scaleX="1" scaleY="1" source="greenTip45_png"/>
+			<e:Image x="638.04" y="471.94" scaleX="1" scaleY="1" source="greenTip46_png"/>
+			<e:Image x="605.12" y="447.44" scaleX="1" scaleY="1" source="greenTip47_png"/>
+			<e:Image x="570.8" y="425.44" scaleX="1" scaleY="1" source="greenTip48_png"/>
+			<e:Image x="566.05" y="381.65" scaleX="1" scaleY="1" source="greenTip1_png"/>
+			<e:Image x="500.45" y="384.08" scaleX="1" scaleY="1" source="greenTip2_png"/>
+			<e:Image x="467.45" y="428.21" scaleX="1" scaleY="1" source="greenTip3_png"/>
+			<e:Image x="434.45" y="451.81" scaleX="1" scaleY="1" source="greenTip4_png"/>
+			<e:Image x="363.67" y="473.04" scaleX="1" scaleY="1" source="greenTip5_png"/>
+			<e:Image x="334.74" y="448.34" scaleX="1" scaleY="1" source="greenTip6_png"/>
+			<e:Image x="305.47" y="425.18" scaleX="1" scaleY="1" source="greenTip7_png"/>
+			<e:Image x="279.74" y="393" scaleX="1" scaleY="1" source="game_tip_green_png"/>
+			<e:Image x="248.95" y="381.89" scaleX="1" scaleY="1" source="greenTip8_png"/>
+			<e:Image x="220.18" y="358.73" scaleX="1" scaleY="1" source="greenTip9_png"/>
+			<e:Image x="217.82" y="319.59" scaleX="1" scaleY="1" source="greenTip10_png"/>
+			<e:Image x="239" y="298.67" scaleX="1" scaleY="1" source="greenTip11_png"/>
+			<e:Image x="271.93" y="281.28" scaleX="1" scaleY="1" source="greenTip12_png"/>
+			<e:Image x="302.08" y="279.87" scaleX="1" scaleY="1" source="greenTip13_png"/>
+			<e:Image x="304.48" y="239.78" scaleX="1" scaleY="1" source="greenTip14_png"/>
+			<e:Image x="280.25" y="221.42" scaleX="1" scaleY="1" source="greenTip15_png"/>
+			<e:Image x="255.85" y="204.38" scaleX="1" scaleY="1" source="greenTip16_png"/>
+			<e:Image x="249.93" y="170.96" scaleX="1" scaleY="1" source="greenTip17_png"/>
+			<e:Image x="267.63" y="153.55" scaleX="1" scaleY="1" source="greenTip18_png"/>
+			<e:Image x="297.63" y="137.21" scaleX="1" scaleY="1" source="greenTip19_png"/>
+			<e:Image source="game_tip_green_png" x="299.48" y="108.46" scaleX="1" scaleY="1"/>
+			<e:Image x="357.48" y="106.56" scaleX="1" scaleY="1" source="greenTip20_png"/>
+			<e:Image x="384.33" y="92.33" scaleX="1" scaleY="1" source="greenTip21_png"/>
+		</e:Group>
+		<e:Group id="tipRedGroup" horizontalCenter="0" width="1136" height="640" y="0">
+			<e:Image x="418" y="89.92" scaleX="1" scaleY="1" source="redTip13_png" anchorOffsetX="0" width="96" anchorOffsetY="0" height="31.73"/>
+			<e:Image x="462.64" y="91.78" scaleX="1" scaleY="1" source="redTip23_png"/>
+			<e:Image x="486.7" y="106.64" scaleX="1" scaleY="1" source="redTip24_png"/>
+			<e:Image x="513.8" y="121.14" scaleX="1" scaleY="1" source="redTip25_png"/>
+			<e:Image x="567.79" y="118.52" scaleX="1" scaleY="1" source="redTip26_png"/>
+			<e:Image x="570.99" y="106.11" scaleX="1" scaleY="1" source="redTip27_png"/>
+			<e:Image x="598.32" y="91.25" scaleX="1" scaleY="1" source="redTip28_png"/>
+			<e:Image x="624.34" y="90.87" scaleX="1" scaleY="1" source="redTip29_png"/>
+			<e:Image x="677.61" y="93.06" scaleX="1" scaleY="1" source="redTip30_png"/>
+			<e:Image x="705.71" y="106.91" scaleX="1" scaleY="1" source="redTip31_png"/>
+			<e:Image source="game_tip_red_png" x="718.23" y="105.39" scaleX="1" scaleY="1"/>
+			<e:Image x="761.71" y="138.29" scaleX="1" scaleY="1" source="redTip32_png"/>
+			<e:Image x="792.37" y="153.7" scaleX="1" scaleY="1" source="redTip33_png"/>
+			<e:Image x="822.58" y="171.34" scaleX="1" scaleY="1" source="redTip34_png"/>
+			<e:Image x="797.09" y="203.58" scaleX="1" scaleY="1" source="redTip35_png"/>
+			<e:Image x="771.59" y="220.68" scaleX="1" scaleY="1" source="redTip36_png"/>
+			<e:Image x="718.27" y="239.93" scaleX="1" scaleY="1" source="redTip37_png"/>
+			<e:Image x="718.07" y="277.71" scaleX="1" scaleY="1" source="redTip38_png"/>
+			<e:Image x="781.67" y="280.56" scaleX="1" scaleY="1" source="redTip39_png"/>
+			<e:Image x="813.77" y="300.41" scaleX="1" scaleY="1" source="redTip40_png"/>
+			<e:Image x="846.52" y="320.56" scaleX="1" scaleY="1" source="redTip41_png"/>
+			<e:Image x="818.52" y="360.7" scaleX="1" scaleY="1" source="redTip42_png"/>
+			<e:Image x="790.02" y="380.8" scaleX="1" scaleY="1" source="redTip43_png"/>
+			<e:Image x="754.87" y="403.89" scaleX="1" scaleY="1" source="game_tip_red_png"/>
+			<e:Image x="730.22" y="424.99" scaleX="1" scaleY="1" source="redTip44_png"/>
+			<e:Image x="702.22" y="449.59" scaleX="1" scaleY="1" source="redTip45_png"/>
+			<e:Image x="638.53" y="472.49" scaleX="1" scaleY="1" source="redTip46_png"/>
+			<e:Image x="607.11" y="448.99" scaleX="1" scaleY="1" source="redTip47_png"/>
+			<e:Image x="574.36" y="427" scaleX="1" scaleY="1" source="redTip48_png"/>
+			<e:Image x="568.13" y="383.67" scaleX="1" scaleY="1" source="redTip1_png"/>
+			<e:Image x="503.01" y="382.15" scaleX="1" scaleY="1" source="redTip2_png"/>
+			<e:Image x="470.01" y="426.75" scaleX="1" scaleY="1" source="redTip3_png"/>
+			<e:Image x="435.86" y="449.84" scaleX="1" scaleY="1" source="redTip4_png"/>
+			<e:Image x="365.71" y="471.08" scaleX="1" scaleY="1" source="redTip5_png"/>
+			<e:Image x="333.81" y="447.37" scaleX="1" scaleY="1" source="redTip6_png"/>
+			<e:Image x="306.54" y="425.22" scaleX="1" scaleY="1" source="redTip7_png"/>
+			<e:Image source="game_tip_red_png" x="271.27" y="401.55" scaleX="1" scaleY="1"/>
+			<e:Image x="249.52" y="380.4" scaleX="1" scaleY="1" source="redTip8_png"/>
+			<e:Image x="220.77" y="357.77" scaleX="1" scaleY="1" source="redTip9_png"/>
+			<e:Image x="219.35" y="315.47" scaleX="1" scaleY="1" source="redTip10_png"/>
+			<e:Image x="237.05" y="298.06" scaleX="1" scaleY="1" source="redTip11_png"/>
+			<e:Image x="271.9" y="278.82" scaleX="1" scaleY="1" source="redTip12_png"/>
+			<e:Image x="302.05" y="278.92" scaleX="1" scaleY="1" source="redTip13_png"/>
+			<e:Image x="303.45" y="240.32" scaleX="1" scaleY="1" source="redTip14_png"/>
+			<e:Image x="279.2" y="220.97" scaleX="1" scaleY="1" source="redTip15_png"/>
+			<e:Image x="252.8" y="201.82" scaleX="1" scaleY="1" source="redTip16_png"/>
+			<e:Image x="249.9" y="170.52" scaleX="1" scaleY="1" source="redTip17_png"/>
+			<e:Image x="266.75" y="154.12" scaleX="1" scaleY="1" source="redTip18_png"/>
+			<e:Image x="297.6" y="137.22" scaleX="1" scaleY="1" source="redTip19_png"/>
+			<e:Image source="game_tip_red_png" x="323.45" y="112.96" scaleX="1" scaleY="1"/>
+			<e:Image x="355.95" y="106.06" scaleX="1" scaleY="1" source="redTip20_png"/>
+			<e:Image x="385.8" y="91.31" scaleX="1" scaleY="1" source="redTip21_png"/>
+		</e:Group>
+		<e:Group id="chessGroup" scaleX="1" scaleY="1" touchEnabled="false" horizontalCenter="0" width="1136" height="640" y="0">
+			<ns1:Chess id="chessGreen0" x="545" y="-4.67" source="game_chess_green0_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="512.64" y="9.32" id="chessGreen1" source="game_chess_green1_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="577.66" y="8.8" id="chessGreen2" source="game_chess_green2_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="546" y="25.8" id="chessGreen3" source="game_chess_green3_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessRed0" x="898" y="185.48" source="game_chess_red0_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="860.64" y="209.8" id="chessRed1" source="game_chess_red1_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="929.28" y="211.32" id="chessRed2" source="game_chess_red2_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="899" y="235.65" id="chessRed3" source="game_chess_red3_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessYellow0" x="547" y="445.72" source="game_chess_yellow0_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="504.69" y="476.32" id="chessYellow1" source="game_chess_yellow1_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="589.38" y="476.32" id="chessYellow2" source="game_chess_yellow2_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess x="548" y="510.6" id="chessYellow3" source="game_chess_yellow3_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessBlue0" x="203.3" y="189.26" source="game_chess_blue0_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessBlue1" x="163.69" y="214.57" source="game_chess_blue1_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessBlue2" x="234.01" y="212.21" source="game_chess_blue2_png" scaleX="1" scaleY="1"/>
+			<ns1:Chess id="chessBlue3" x="197.03" y="234.5" source="game_chess_blue3_png" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="chessNumTipGroup" scaleX="1" scaleY="1" width="1136" height="640" y="0" horizontalCenter="0" touchEnabled="false"/>
+		<e:Group id="diceGroup" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="1136" height="640" y="0">
+			<ns1:Dice id="dice" x="518.12" y="209.91" source="dice_anim0_png"/>
+			<ns1:DiceClick id="diceClick" skinName="DiceClickSkin" scaleX="1" scaleY="1" x="393" y="75"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="headGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false" horizontalCenter="0">
+		<ns1:HeadUI scaleX="1" scaleY="1" skinName="HeadGreenSkin" y="-4" left="-22"/>
+		<ns1:HeadUI y="-4" scaleX="1" scaleY="1" skinName="HeadRedSkin" right="-18"/>
+		<ns1:HeadUI y="506" scaleX="1" scaleY="1" skinName="HeadYellowSkin" right="-18"/>
+		<ns1:HeadUI scaleX="1" scaleY="1" skinName="HeadBlueSkin" y="506" left="-22"/>
+	</e:Group>
+	<e:Group id="uiGroup" touchEnabled="false" left="0" right="0" top="0" bottom="0" horizontalCenter="0">
+		<e:Image id="ruleBtn" source="game_ruleBtn_png" y="364.21" scaleX="1" scaleY="1" x="29"/>
+		<e:Image id="menuBtn" y="443.21" scaleX="1" scaleY="1" x="29" source="game_menubtn_png"/>
+	</e:Group>
+	<e:Group id="selectChessGroup" width="1136" height="640" y="0" horizontalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	</e:Group>
+	<e:Group touchEnabled="false" left="0" right="0" top="0" bottom="0" horizontalCenter="0">
+		<e:Rect id="testBtn0" width="86" height="90" y="17.83" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xf70909" left="23" fillAlpha="0"/>
+		<e:Rect id="testBtn1" width="86" height="90" y="531.72" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xF70909" right="24" fillAlpha="0"/>
+	</e:Group>
+</e:Skin>

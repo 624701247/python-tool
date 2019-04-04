@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group id="bgGroup" width="1136" height="640" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="bg" source="home_bg_jpg" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="iland" source="home_logo_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="logo" source="home_bluemoon_png" x="595.27" y="345.42"/>
+		<e:Image id="xiyiye" source="home_xiyiye_png" x="835.13" y="308.65" width="94" anchorOffsetX="47" anchorOffsetY="65"/>
+		<e:Image id="pop" source="home_pop_png" x="657.67" y="275.17" width="148" height="106" anchorOffsetX="74" anchorOffsetY="53"/>
+		<e:Image id="heart" source="home_heart_png" x="903.07" y="300.89" width="90" anchorOffsetX="45" anchorOffsetY="21"/>
+		<e:Image id="grass" source="home_grass_png" x="762.04" y="341.11"/>
+		<e:Image id="saizi" source="home_saizi_png" x="729.63" y="68"/>
+	</e:Group>
+	<e:Group id="btnGroup" width="1136" height="640" horizontalCenter="0" y="0">
+		<e:Image id="startBtn" source="home_startbtn_png" y="527" scaleX="1" scaleY="1" x="265.99"/>
+		<e:Image id="ruleBtn" y="533.65" scaleX="1" scaleY="1" x="609.9" source="home_rulebtn_png"/>
+	</e:Group>
+</e:Skin>

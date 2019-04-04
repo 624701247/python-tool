@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectGreenSkin" width="120" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="roleImg" source="option_green0_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="computerImg" source="option_green1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="closeImg" horizontalCenter="0" verticalCenter="0" source="option_close_png"/>
+</e:Skin>

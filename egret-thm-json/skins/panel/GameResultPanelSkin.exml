@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameResultPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group touchEnabled="true" width="1136" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Rect anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fillColor="0x050000" fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="winLabel" text="红方胜利" y="174" textColor="0x0f0101" anchorOffsetX="0" width="392" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="center" x="372" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label text="其余玩家进度：" y="242" textColor="0x0F0101" anchorOffsetX="0" width="392" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="left" x="372" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="resultLabel0" text="绿方：1/4" y="292" textColor="0x0F0101" anchorOffsetX="0" width="392" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="left" x="372" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="resultLabel1" text="绿方：1/4" y="342" textColor="0x0F0101" anchorOffsetX="0" width="392" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="left" x="372" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="resultLabel2" text="绿方：1/4" y="392" textColor="0x0F0101" anchorOffsetX="0" width="392" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="left" x="376" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="lightImg" source="result_light_png" anchorOffsetX="500" anchorOffsetY="500" x="568" y="280.01"/>
+		<e:Image id="loseImg" source="result_lose_png" anchorOffsetX="413.5" anchorOffsetY="253" x="568.5" y="320"/>
+		<e:Image id="winImg" source="result_win_png" anchorOffsetX="413.5" anchorOffsetY="253" x="568.5" y="320"/>
+		<e:Image id="againBtn" source="result_again_png" x="229" bottom="47"/>
+		<e:Image id="shareBtn" source="result_share_png" x="585" bottom="48"/>
+	</e:Group>
+</e:Skin>
