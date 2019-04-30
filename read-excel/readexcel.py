@@ -12,34 +12,46 @@ excel 转json(省市区数据表转成 sarea插件需要的格式)
 '''
 
 
+def newItems():
+	return {'items':{}}
+
+def newItemArr():
+	return {'items':[]}
+
 data = {}
-def listName(path, id):
+def listName(path):
 	curShen = ''
 	curShi = ''
-	curQu = ''
+	# curQu = ''
 	count = 0
 	with open(path,"r", encoding='utf-8') as file:
 		for line in file.readlines():
 			count = count + 1
-			shen = line.split()[0]
-			shi = line.split()[1]
-			qu = line.split()[2]
+			tmp = line.split()
+			# print(str(len(tmp)) + '   ' + str(count))
+			shen = tmp[0]
+			shi = tmp[1]
+			# qu = line.split()[2]
+			stop = tmp[2]
+			addr = tmp[3]
 			if curShen != shen :
-				data[shen] = {'items':{}}
+				data[shen] = newItems()
 				curShen = shen
 			if curShi != shi :
-				data[shen]['items'][shi] = {'items':{}}
+				data[shen]['items'][shi] = newItemArr()
+				data[shen]['items'][shi]['items'].append({'stop':stop, 'addr':addr})
 				curShi = shi
-			if curQu != qu:
-				data[shen]['items'][shi]['items'][qu] = count
-				curQu = qu
+			# if curQu != qu:
+			# 	data[shen]['items'][shi]['items'][qu] = newItemArr()
+			# 	curQu = qu
+			data[shen]['items'][shi]['items'].append({'stop':stop, 'addr':addr})
 
 
 srcDir = 'excel.js'
 
-listName(srcDir, 0)
-listName(srcDir, 1)
-listName(srcDir, 2)
+listName(srcDir)
+# listName(srcDir, 1)
+# listName(srcDir, 2)
 print(data)
 
 input("Prease <enter>")
