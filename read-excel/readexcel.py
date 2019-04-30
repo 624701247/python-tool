@@ -19,39 +19,34 @@ def newItemArr():
 	return {'items':[]}
 
 data = {}
+
+
 def listName(path):
-	curShen = ''
-	curShi = ''
-	# curQu = ''
 	count = 0
 	with open(path,"r", encoding='utf-8') as file:
 		for line in file.readlines():
 			count = count + 1
 			tmp = line.split()
-			# print(str(len(tmp)) + '   ' + str(count))
 			shen = tmp[0]
 			shi = tmp[1]
-			# qu = line.split()[2]
 			stop = tmp[2]
 			addr = tmp[3]
-			if curShen != shen :
+			if (shen in data.keys()) == False:
 				data[shen] = newItems()
-				curShen = shen
-			if curShi != shi :
+			if (shi in data[shen]['items'].keys()) == False:
 				data[shen]['items'][shi] = newItemArr()
-				data[shen]['items'][shi]['items'].append({'stop':stop, 'addr':addr})
-				curShi = shi
-			# if curQu != qu:
-			# 	data[shen]['items'][shi]['items'][qu] = newItemArr()
-			# 	curQu = qu
 			data[shen]['items'][shi]['items'].append({'stop':stop, 'addr':addr})
+		print('count' + str(count))
 
 
 srcDir = 'excel-30new.js'
-
 listName(srcDir)
-# listName(srcDir, 1)
-# listName(srcDir, 2)
 print(data)
-
 input("Prease <enter>")
+
+# aaa = {'bb':1}
+# if ~('bb' in aaa.keys()):
+# 	print('aaaaa')
+
+# print(('bb' in aaa.keys()))
+
