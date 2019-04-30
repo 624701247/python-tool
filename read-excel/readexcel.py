@@ -47,7 +47,7 @@ def listName(path):
 			data[shen]['items'][shi]['items'].append({'stop':stop, 'addr':addr})
 
 
-srcDir = 'excel.js'
+srcDir = 'excel-30new.js'
 
 listName(srcDir)
 # listName(srcDir, 1)
